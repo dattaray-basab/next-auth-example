@@ -8,7 +8,9 @@ export default withAuth({
       if (req.nextUrl.pathname === "/admin") {
         return token?.userRole === "admin"
       }
-      // `/me` only requires the user to be logged in
+
+      // `/me` only requires the user to be logged in (any role)
+      
       return !!token
     },
   },
