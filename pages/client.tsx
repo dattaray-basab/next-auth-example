@@ -4,6 +4,7 @@ export default function ClientPage() {
   return (
     <Layout>
       <h1>Client Side Rendering</h1>
+      <p>Then why does this not require 'use client' directive?</p>
       <p>
         This page uses the <strong>useSession()</strong> React Hook in the{" "}
         <strong>&lt;Header/&gt;</strong> component.
