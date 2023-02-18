@@ -1,4 +1,9 @@
 .DS_Store
+.vscode
+.idea
+node_modules
+dist
+yarn.lock
 
 node_modules/
 logs
