@@ -6,10 +6,10 @@ const Middle = () => {
       <div>
         <ul>
           <li>
-            <Link href='/learn/htm'>HTML...</Link>
+            <Link href='/learn/htm-content'>HTML...</Link>
           </li>
           <li>
-            <Link href='/learn/js'>Java Script...</Link>
+            <Link href='/learn/js-content'>Java Script...</Link>
           </li>
         </ul>
       </div>
