@@ -1,9 +1,9 @@
 import Layout from "../../components/layout";
 
-export default function Page() {
+export default function Learn() {
   return (
     <Layout>
-      <h1> Private Workspace...</h1>
+      <h1> Learn...</h1>
     </Layout>
   );
 }
