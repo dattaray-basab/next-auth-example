@@ -9,7 +9,7 @@ const Middle = () => {
             <Link href='/learn/htm'>HTML...</Link>
           </li>
           <li>
-            <Link href='/learn/js'>js...</Link>
+            <Link href='/learn/js'>Java Script...</Link>
           </li>
         </ul>
       </div>
