@@ -8,13 +8,10 @@ export default function Learn() {
       <div>
         <ul>
           <li>
-            <Link href='/'>Home</Link>
+            <Link href='/learn/htm'>HTML...</Link>
           </li>
           <li>
-            <a>Sidenav link 2</a>
-          </li>
-          <li>
-            <a>Sidenav link 2</a>
+            <Link href='/learn/js'>js...</Link>
           </li>
         </ul>
       </div>
