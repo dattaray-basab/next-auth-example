@@ -18,8 +18,7 @@ export default function Header() {
         <p
           className={`nojs-show ${
             !session && loading ? styles.loading : styles.loaded
-          }`}
-        >
+          }`}>
           {!session && (
             <>
               <span className={styles.notSignedInText}>
@@ -29,10 +28,9 @@ export default function Header() {
                 href={`/api/auth/signin`}
                 className={styles.buttonPrimary}
                 onClick={(e) => {
-                  e.preventDefault()
-                  signIn()
-                }}
-              >
+                  e.preventDefault();
+                  signIn();
+                }}>
                 Sign in
               </a>
             </>
@@ -54,10 +52,9 @@ export default function Header() {
                 href={`/api/auth/signout`}
                 className={styles.button}
                 onClick={(e) => {
-                  e.preventDefault()
-                  signOut()
-                }}
-              >
+                  e.preventDefault();
+                  signOut();
+                }}>
                 Sign out
               </a>
             </>
@@ -67,28 +64,31 @@ export default function Header() {
       <nav>
         <ul className={styles.navItems}>
           <li className={styles.navItem}>
-            <Link href="/">Home</Link>
+            <Link href='/'>Home</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/client">Client</Link>
+            <Link href='/learning'>learning</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/server">Server</Link>
+            <Link href='/client'>Client</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/protected">Protected</Link>
+            <Link href='/server'>Server</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/api-example">API</Link>
+            <Link href='/protected'>Protected</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/admin">Admin</Link>
+            <Link href='/api-example'>API</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/me">Me</Link>
+            <Link href='/admin'>Admin</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href='/me'>Me</Link>
           </li>
         </ul>
       </nav>
     </header>
-  )
+  );
 }
