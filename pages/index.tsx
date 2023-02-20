@@ -1,4 +1,4 @@
-import Layout from "../components/layout"
+import Layout from "./_nav/layout"
 
 export default function IndexPage() {
   return (

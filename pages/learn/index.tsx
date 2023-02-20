@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+import Layout from "../_nav/layout";
 
 import Js from "./js";
 import Htm from "./htm";
