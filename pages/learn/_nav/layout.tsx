@@ -5,7 +5,11 @@ export default function Layout2({ children }: { children: ReactNode }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main>
+        <section className='fixed h-full w-1/4'>
+          <div className='center py-4'>{children}</div>
+        </section>
+      </main>
     </>
   );
 }

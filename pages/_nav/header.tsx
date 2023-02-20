@@ -11,9 +11,6 @@ export default function Header() {
 
   return (
     <header>
-      <noscript>
-        <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
-      </noscript>
       <div className={styles.signedInStatus}>
         <p
           className={`nojs-show ${
@@ -72,7 +69,6 @@ export default function Header() {
           <li className={styles.navItem}>
             <Link href='/ws'>Private Workspace</Link>
           </li>
-    
         </ul>
       </nav>
     </header>

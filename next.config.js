@@ -2,9 +2,6 @@
 const nextConfig = {
   experimental: {
     appDir: true
-  },
-  images: {
-    domains: ['github.com', 'lh3.googleusercontent.com']
   }
 }
 
