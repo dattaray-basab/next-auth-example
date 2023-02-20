@@ -1,10 +1,10 @@
 import Link from "next/link";
-import Layout2 from "../_nav/layout";
+import Layout from "../_nav/layout";
 
 export default function Js() {
   return (
-    <Layout2>
+    <Layout>
       <Link href='/learn/js/js-content'>JS Content</Link>
-    </Layout2>
+    </Layout>
   );
 }
