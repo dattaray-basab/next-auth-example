@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 
 
-const Page = () => {
+const HTMLPage = () => {
   return (
     <section>
       <div className='px-4 py-4 sm:px-6 lg:px-8'>
@@ -49,4 +49,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default HTMLPage;
