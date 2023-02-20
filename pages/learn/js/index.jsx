@@ -1,5 +1,8 @@
+import Layout from "../../_nav/layout";
+
 const JSPage = () => {
   return (
+    <Layout>
     <section>
       <div className='px-4 py-4 sm:px-6 lg:px-8'>
         <h1 className='mb-3 text-2xl font-semibold'>Java Script</h1>
@@ -9,6 +12,7 @@ const JSPage = () => {
         </div>
       </div>
     </section>
+    </Layout>
   );
 };
 

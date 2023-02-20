@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Layout2 from "../../_nav/layout";
+import Layout from "../../_nav/layout";
 
 const HTMLPage = () => {
   return (
-    <Layout2>
+    <Layout>
       <section>
         <div className='px-4 py-4 sm:px-6 lg:px-8'>
           <h1 className='mb-3 text-2xl font-semibold'>HTML</h1>
@@ -46,7 +46,7 @@ const HTMLPage = () => {
           </div>
         </div>
       </section>
-    </Layout2>
+    </Layout>
   );
 };
 
