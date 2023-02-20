@@ -1,9 +1,5 @@
-import Layout from "./_nav/layout";
+import Layout2 from "./_nav/layout";
 
 export default function Contents() {
-  return (
-    <Layout>
-      
-    </Layout>
-  );
+  return <Layout2></Layout2>;
 }
