@@ -1,4 +1,4 @@
-import Header2 from "./header2"
+import Header2 from "./header"
 import type { ReactNode } from "react"
 
 export default function Layout2({ children }: { children: ReactNode }) {
