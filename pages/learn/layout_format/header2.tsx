@@ -11,16 +11,6 @@ export default function Header2() {
         <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
       </noscript>
 
-      <div>
-        <ul>
-          <li>
-            <Link href='/learn/htm-content'>HTML...</Link>
-          </li>
-          <li>
-            <Link href='/learn/js-content'>Java Script...</Link>
-          </li>
-        </ul>
-      </div>
     </header>
   );
 }

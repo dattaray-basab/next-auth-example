@@ -1,12 +1,14 @@
 import Layout from "../../components/layout";
 
-import Middle from "./middle";
+import Js from "./js";
+import Htm from "./htm";
 
 export default function Learn() {
   return (
     <Layout>
       <h1> Learn...</h1>
-      <Middle></Middle>
+      <Htm/>
+      <Js/> 
     </Layout>
   );
 }
