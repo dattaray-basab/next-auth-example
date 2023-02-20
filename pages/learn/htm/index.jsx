@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout2 from "../layout/layout2";
+import Layout2 from "../_nav/layout2";
 
 export default function Htm() {
   return (
