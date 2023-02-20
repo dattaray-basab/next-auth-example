@@ -10,7 +10,9 @@ export default function Header2() {
       <noscript>
         <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
       </noscript>
-
+      <Link href='/learn/js/js-content'>JS Content</Link>
+      <br></br>
+      <Link href='/learn/htm/htm-content'>HTML Content</Link>
     </header>
   );
 }
