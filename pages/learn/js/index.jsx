@@ -1,4 +1,4 @@
-import Layout from "../../_nav/layout";
+import Layout from "../_nav/layout";
 
 const JSPage = () => {
   return (
