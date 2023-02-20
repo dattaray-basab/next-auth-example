@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout2 from "../layout_format/layout2";
+import Layout2 from "../layout/layout2";
 
 export default function Js() {
   return (
