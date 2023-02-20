@@ -14,6 +14,9 @@ export default function Header2() {
             <li className={styles.navItem}>
               <Link href='/learn/js'>Java Script info</Link>
             </li>
+            <li className={styles.navItem}>
+              <Link href='/learn/style-sheets'>Style Sheets info</Link>
+            </li>
           </ul>
         </aside>
       </section>
