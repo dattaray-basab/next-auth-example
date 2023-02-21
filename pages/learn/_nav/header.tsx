@@ -20,6 +20,9 @@ export default function Header2() {
             <li className={styles.navItem}>
               <Link href='/learn/react'>React</Link>
             </li>
+            <li className={styles.navItem}>
+              <Link href='/learn/nextjs'>NextJS</Link>
+            </li>
           </ul>
         </aside>
       </section>
