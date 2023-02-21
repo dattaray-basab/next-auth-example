@@ -17,6 +17,9 @@ export default function Header2() {
             <li className={styles.navItem}>
               <Link href='/learn/style-sheets'>Style Sheets info</Link>
             </li>
+            <li className={styles.navItem}>
+              <Link href='/learn/react'>React</Link>
+            </li>
           </ul>
         </aside>
       </section>
