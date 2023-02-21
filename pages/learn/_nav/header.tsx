@@ -9,7 +9,7 @@ export default function Header2() {
         <aside className='w-1/4'>
           <ul className={styles.navItems}>
             <li className={styles.navItem}>
-              <Link href='/learn/htm'>HTML info</Link>
+              <Link href='/learn/html'>HTML info</Link>
             </li>
             <li className={styles.navItem}>
               <Link href='/learn/js'>Java Script info</Link>
